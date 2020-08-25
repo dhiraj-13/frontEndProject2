@@ -1,0 +1,64 @@
+{
+  "user": [
+    {
+      "firstname": "Ram",
+      "lastname": "Ahuja",
+      "email": "Ram@gmail.com",
+      "mobile": 9874563210,
+      "age": 29,
+      "country": "India",
+      "state": "Goa",
+      "companyAddress1": "wipro",
+      "companyAddress2": "accenture",
+      "homeAddress2": "123 Main Street, New York, NY 10030",
+      "homeAddress1": "123 Main Street, New York, NY 10030",
+      "hobbies": [
+        "Football",
+        "Hockey",
+        "Tennis"
+      ],
+      "box": "false",
+      "id": "1"
+    },
+    {
+      "firstname": "Ramesh",
+      "lastname": "Ahuja",
+      "email": "Ahuja@gmail.com",
+      "mobile": 9874563215,
+      "age": 29,
+      "country": "India",
+      "state": "Goa",
+      "companyAddress1": "jp",
+      "companyAddress2": "accenture",
+      "homeAddress2": "123 Main Street, New York, NY 10030",
+      "homeAddress1": "123 Main Street, New York, NY 10030",
+      "hobbies": [
+        "Football",
+        "Hockey",
+        "Tennis"
+      ],
+      "box": "false",
+      "id": "1"
+    },
+    {
+      "firstname": "raj",
+      "lastname": "tharka",
+      "email": "raj@gmail.com",
+      "mobile": "7896541230",
+      "age": 56,
+      "country": "India",
+      "state": "Goa",
+      "companyAddress1": "asdas",
+      "companyAddress2": "sadsa",
+      "homeAddress2": "dasd",
+      "homeAddress1": "Ss",
+      "hobbies": [
+        "Football",
+        "Hockey",
+        "Tennis"
+      ],
+      "box": "false",
+      "id": "qPdsx9y"
+    }
+  ]
+}

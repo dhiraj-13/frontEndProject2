@@ -1,0 +1,54 @@
+<div id="top_nav" style="padding-top: 5%; background:blue;padding-bottom: 2%; ">
+  <ul>
+    <li class="mainMenu-itemLevel1">
+      <a href="" class="active">HOME</a>
+    </li>
+    <li class="mainMenu-itemLevel1">
+      <a href="">ABOUT US</a>
+    </li>
+    <li class="mainMenu-itemLevel1">
+      <a href="">JOBS</a>
+    </li>
+    <li class="mainMenu-itemLevel1">
+      <a href="">CLIENTS</a>
+    </li>
+    <li class="mainMenu-itemLevel1">
+      <a href="">EMPLOYERS</a>
+    </li>
+    <li class="mainMenu-itemLevel1">
+      <a href="">CONTACT US</a>
+    </li>
+  </ul>
+</div>
+
+<!-- <div *ngFor="let x of userData">
+  <h1 >{{x.firstname}} {{x.lastname}}</h1>
+</div> -->
+
+<div class="container">
+<div class="col-sm-3 col-md-3" *ngFor="let x of userData">  <h3 >{{x.firstname}} {{x.lastname}}</h3> </div>
+<div class="col-sm-3 col-md-6">
+<h4 *ngFor="let user of userData">
+  I'm {{user.firstname}}  {{user.lastname}} and Im above {{user.age}} years and
+  you can send your emails to{{user.email}}.
+  i live in the state of {{user.state}}.i like to play hockey,football and reading books. and please reach out to me on my phone
+  {{user.mobile}}.
+
+</h4>
+
+<button class="btn btn-primary" (click)="openDialog()">Edit</button>
+</div>
+</div>
+<div class="footer2" style="margin-top: 10%;">
+  <div class="text-center">Subscribe to Our Job Seeker Mailing List</div>
+  <div class="text-center" style="margin-top: 2%;">
+    <span style="text-align: center;">
+      <input type="text" class="form-control1" placeholder="Enter your Email Address " />
+      <i class="fa fa-envelope-o" style="color: blue;"></i>
+    </span>
+  </div>
+</div>
+
+
+
+
